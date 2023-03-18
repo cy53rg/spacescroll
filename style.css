@@ -1,0 +1,275 @@
+@import url("https://use.typekit.net/jmk3xov.css");
+
+canvas {
+  position: fixed;
+  top: 0;
+  left: 0;
+}
+
+
+:root {
+  --dark-bg: rgba(15, 15, 15, 0.95);
+  --spacing: 350px;
+
+  font-family: co, sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+
+main {
+  width: 100vw;
+  color: white;
+  z-index: 99;
+  position: absolute;
+  width: 100%;
+  margin: 0px auto;
+  padding: 120px 0px;
+  
+  display: grid;
+  grid-template-columns: repeat(12, 1fr);
+}
+
+h1, h2, h3, blockquote {
+  font-family: elevon, sans-serif;
+  font-weight: 700;
+  font-style: normal;
+  color: azure;
+}
+
+canvas {
+  position: fixed;
+  top: 0;
+  left: 0;
+}
+
+
+
+  header {
+    /* background: var(--dark-bg); */
+    grid-column: 2 / span 5;
+    font-size: 2.5rem;
+    padding: 2rem;
+    margin-bottom: var(--spacing);
+  }
+
+  section {
+    grid-column: 2 / 8;
+    padding: 1rem;
+    /* background: var(--dark-bg); */
+    font-size: 1.25rem;
+    line-height: 1.5;
+    margin-bottom: var(--spacing);
+  }
+
+  blockquote {
+    margin: 0;
+    padding: 0;
+    grid-column: 2 / span 9;
+    margin-bottom: var(--spacing);
+  }
+
+  blockquote p {
+    color: rgb(255, 255, 255);
+     
+    font-size: 4rem;
+    display: inline;
+    line-height: 1;
+    border-radius: 10%;
+  }
+
+  .left {
+    grid-column: 6 / 12;
+  }
+ 
+
+
+
+
+ 
+  .details {
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 2rem;
+  }
+  
+  .ball-text2{
+    position: fixed;
+    z-index: 2;
+    color: white;
+    font-size: 5rem;
+    right: 40%;
+    bottom: 50%;
+    transform: translate(-20%, -40%);
+  }
+  
+  .ball-text3 {
+    position: fixed;
+    z-index: 2;
+    color: white;
+    font-size: 5rem;
+    right: 35%;
+    bottom: 30%;
+    transform: translate(-20%, -40%);
+  }
+  
+  
+  
+  
+  
+  @media screen and (max-width: 1024px) {
+    .ball-text {
+      font-size: 2rem;
+      right: 50%;
+      bottom: 25%;
+      transform: translate(50%, 50%);
+    }
+    h1 {
+      font-size: 2rem;
+    }
+  }
+  
+  
+  .bb {
+    position: fixed;
+    z-index: 2;
+    color: rgb(208, 105, 105);
+    color: white;
+    width: 20%;
+    height: 10%;
+    background: none;
+    font-size: 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    border: 2px solid white;
+    transition: all 0.5s ease;
+    left: 40%;
+    bottom: 10%;
+    transform: translate(-10%, -50%);
+  }
+  
+  
+  .text1 {
+    position: fixed;
+    z-index: 2;
+    color: rgb(217, 75, 227);
+    font-size: 1rem;
+    left: 30%;
+    top: 10%;
+    transform: translate(-10%, -50%);
+  }
+  
+  .down {
+    position: fixed;
+    z-index: 2;
+    color: rgb(217, 71, 219);
+    font-size: 1rem;
+    right: 10%;
+    bottom: 10%;
+    transform: translate(-10%, -50%);
+  }
+  .down1 {
+    position: fixed;
+    z-index: 2;
+    color: rgb(229, 67, 159);
+    font-size: 1rem;
+    left: 10%;
+    bottom: 6%;
+    transform: translate(-10%, -50%);
+  }
+  
+  .text2 {
+    position: fixed;
+    z-index: 2;
+    color: white;
+    font-size: 1rem;
+    left: 40%;
+    top: 10%;
+    transform: translate(-10%, -50%);
+  }
+  
+  .text3 {
+    position: fixed;
+    z-index: 2;
+    color: white;
+    font-size: 1rem;
+    left: 50%;
+    top: 10%;
+    transform: translate(-10%, -50%);
+  }
+  
+  .text4 {
+    position: fixed;
+    z-index: 2;
+    color: white;
+    font-size: 1rem;
+    left: 60%;
+    top: 10%;
+    transform: translate(-10%, -50%);
+  }
+  
+  .tex {
+    position: fixed;
+    z-index: 2;
+    color: rgb(224, 15, 232);
+    font-size: 0.5rem;
+    left: 7%;
+    top: 10%;
+    transform: translate(-10%, -50%);
+  }
+  .tex1 {
+    position: fixed;
+    z-index: 2;
+    color: rgb(222, 29, 132);
+    font-size: 0.5rem;
+    left: 7%;
+    top: 12%;
+    transform: translate(-10%, -50%);
+  }
+  
+  
+  
+  
+  .c {
+    position: fixed;
+    z-index: 2;
+    background: #4972a1;
+    color: white;
+    background: none;
+    font-size: 20px;
+    cursor: pointer;
+    border: none;
+    height: 120px;
+    width: 120px;
+    padding: 30px;
+    border-radius: 50%;
+    transition: all 0.5s ease;
+    right: 5%;
+    bottom: 50%;
+    transform: translate(-5%, -40%);
+  }
+  
+  .cc {
+    position: fixed;
+    z-index: 2;
+    background: #4972a1;
+    color: white;
+    background: none;
+    font-size: 20px;
+    cursor: pointer;
+    border: none;
+    height: 120px;
+    width: 120px;
+    padding: 30px;
+    border-radius: 50%;
+    transition: all 0.5s ease;
+    right: 5%;
+    top: 30%;
+    transform: translate(-5%, -40%);
+  }
+  
+  
+  
+   
